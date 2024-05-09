@@ -6,6 +6,6 @@ a modal for upgrading with one click to the "Unlimited Plan".
 
 
 ## How it blocks it?
-Currently, `https://na.mesk.skill.music.a2z.com/api/showDynamicMessage`
-tells the frontend when that overlay needs to
-be rendered, so this extension blocks that request.
+Currently, the API `https://na.mesk.skill.music.a2z.com/api/showDynamicMessage`
+tells the frontend how to render that overlay, 
+so this extension blocks that request.
