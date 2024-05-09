@@ -3,9 +3,6 @@
   "version": "1.0",
   "manifest_version": 3,
   "description": "Prevents the upgrade prompt overlay",
-  "background": {
-    "service_worker": "service-worker.js"
-  },
   "declarative_net_request": {
     "rule_resources": [
       {
